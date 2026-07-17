@@ -1,0 +1,19 @@
+game_pk,game_date,matchup,player_id,player_name,pitcher_name,expected_batting_order,home_run_probability
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,691406,Junior Caminero,Jake Bennett,3,0.12605842857398483
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,650490,Yandy Díaz,Jake Bennett,1,0.12339413818722349
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,678011,Anthony Seigler,Griffin Jax,1,0.1102579359385388
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,678882,Ceddanne Rafaela,Griffin Jax,2,0.10454197426125289
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,677800,Wilyer Abreu,Griffin Jax,3,0.10416801577042731
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,666018,Jonathan Aranda,Jake Bennett,2,0.09567787805509678
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,668723,Ryan Vilade,Jake Bennett,4,0.08364523388539716
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,663853,Romy Gonzalez,Griffin Jax,6,0.08105268190551747
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,702332,Caleb Durbin,Griffin Jax,4,0.0804076540673946
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,807799,Masataka Yoshida,Griffin Jax,5,0.07789351406685954
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,676356,Jonny DeLuca,Jake Bennett,5,0.0662780199616003
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,680776,Jarren Duran,Griffin Jax,7,0.06434978884618356
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,665966,Carlos Narváez,Griffin Jax,8,0.05755944070591117
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,810938,Ben Williamson,Jake Bennett,7,0.05400591294930501
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,691907,Tsung-Che Cheng,Griffin Jax,9,0.04867194650465733
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,663743,Nick Fortes,Jake Bennett,9,0.046589317225504245
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,670764,Taylor Walls,Jake Bennett,8,0.045179527067449696
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,802415,Chandler Simpson,Jake Bennett,6,0.042441090308216044

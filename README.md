@@ -58,6 +58,22 @@ mlb-hr predict-game \
 
 The command reads both batting orders and opposing starters from MLB's live game feed, calculates rates from Statcast games strictly before the official game date, and prints calibrated probabilities. It fails clearly when a lineup or starter is unavailable. Keep the history file current through the day before prediction.
 
+## Rank hitters across an entire game day
+
+After lineups begin appearing, predict the whole MLB slate with one command:
+
+```bash
+mlb-hr predict-day \
+  --date 2026-07-17 \
+  --data data/raw/statcast.parquet \
+  --model artifacts/hr_logistic.joblib \
+  --output predictions/2026-07-17.csv
+```
+
+The output is one probability-ranked list across all games. Games without complete
+lineups or starting pitchers are skipped with a warning, so rerun closer to first pitch
+to include more of the slate.
+
 ## Tests
 
 ```bash

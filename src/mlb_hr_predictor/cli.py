@@ -9,7 +9,7 @@ from pathlib import Path
 from .data_collection import collect_statcast, load_statcast
 from .features import build_player_games
 from .model import train_and_evaluate
-from .predict import predict_game
+from .predict import predict_day, predict_game
 
 
 def parser() -> argparse.ArgumentParser:
@@ -30,6 +30,11 @@ def parser() -> argparse.ArgumentParser:
     predict.add_argument("--data", type=Path, required=True)
     predict.add_argument("--model", type=Path, required=True)
     predict.add_argument("--output", type=Path)
+    predict_day_parser = commands.add_parser("predict-day", help="rank expected hitters across a day's games")
+    predict_day_parser.add_argument("--date", required=True, help="game date in YYYY-MM-DD format")
+    predict_day_parser.add_argument("--data", type=Path, required=True)
+    predict_day_parser.add_argument("--model", type=Path, required=True)
+    predict_day_parser.add_argument("--output", type=Path)
     return root
 
 
@@ -50,6 +55,12 @@ def main() -> None:
         print(artifact.metrics)
     elif args.command == "predict-game":
         predictions = predict_game(args.game_pk, args.data, args.model)
+        if args.output:
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            predictions.to_csv(args.output, index=False)
+        print(predictions.to_string(index=False))
+    elif args.command == "predict-day":
+        predictions = predict_day(args.date, args.data, args.model)
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)
             predictions.to_csv(args.output, index=False)

@@ -15,6 +15,7 @@ import requests
 
 LOGGER = logging.getLogger(__name__)
 MLB_API = "https://statsapi.mlb.com/api/v1.1/game/{game_pk}/feed/live"
+MLB_SCHEDULE_API = "https://statsapi.mlb.com/api/v1/schedule"
 
 
 @dataclass(frozen=True)
@@ -29,6 +30,32 @@ class ExpectedHitter:
     ballpark: str
     game_date: pd.Timestamp
     game_pk: int
+
+
+@dataclass(frozen=True)
+class ScheduledGame:
+    game_pk: int
+    away_team: str
+    home_team: str
+
+
+def fetch_scheduled_games(game_date: str, timeout: int = 30) -> list[ScheduledGame]:
+    """Return every MLB game scheduled on an ISO-formatted date."""
+    response = requests.get(
+        MLB_SCHEDULE_API,
+        params={"sportId": 1, "date": game_date, "hydrate": "team"},
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    games: list[ScheduledGame] = []
+    for date_entry in response.json().get("dates", []):
+        for game in date_entry.get("games", []):
+            games.append(ScheduledGame(
+                game_pk=int(game["gamePk"]),
+                away_team=game["teams"]["away"]["team"]["name"],
+                home_team=game["teams"]["home"]["team"]["name"],
+            ))
+    return games
 
 
 def collect_statcast(

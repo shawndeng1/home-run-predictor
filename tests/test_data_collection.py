@@ -5,7 +5,7 @@ from types import SimpleNamespace
 
 import pandas as pd
 
-from mlb_hr_predictor.data_collection import collect_statcast
+from mlb_hr_predictor.data_collection import collect_statcast, fetch_scheduled_games
 
 
 class FakeCache:
@@ -42,3 +42,22 @@ def test_collect_incrementally_updates_and_retries(tmp_path, monkeypatch) -> Non
     assert saved["game_pk"].tolist() == [1, 2]
     assert cache.enabled
 
+
+def test_fetch_scheduled_games(monkeypatch) -> None:
+    class Response:
+        def raise_for_status(self) -> None:
+            pass
+
+        def json(self) -> dict:
+            return {"dates": [{"games": [{
+                "gamePk": 123,
+                "teams": {
+                    "away": {"team": {"name": "New York Mets"}},
+                    "home": {"team": {"name": "Philadelphia Phillies"}},
+                },
+            }]}]}
+
+    monkeypatch.setattr("mlb_hr_predictor.data_collection.requests.get", lambda *args, **kwargs: Response())
+    games = fetch_scheduled_games("2026-07-16")
+    assert games[0].game_pk == 123
+    assert games[0].away_team == "New York Mets"

@@ -7,9 +7,10 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import requests
 
 from .config import FEATURES
-from .data_collection import fetch_expected_hitters, load_statcast
+from .data_collection import ExpectedHitter, fetch_expected_hitters, fetch_scheduled_games, load_statcast
 from .features import PA_EVENTS, _prepare_pitches
 from .model import load_artifact
 
@@ -25,6 +26,10 @@ def build_game_features(game_pk: int, history: pd.DataFrame) -> pd.DataFrame:
     as_of = hitters[0].game_date
     p = _prepare_pitches(history)
     p = p[p["game_date"].lt(as_of)]
+    return _features_for_hitters(hitters, p)
+
+
+def _features_for_hitters(hitters: list[ExpectedHitter], p: pd.DataFrame) -> pd.DataFrame:
     rows: list[dict[str, object]] = []
     for hitter in hitters:
         batter = p[p["batter"].eq(hitter.player_id)]
@@ -57,12 +62,41 @@ def build_game_features(game_pk: int, history: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def predict_game(game_pk: int, history_path: Path, model_path: Path) -> pd.DataFrame:
-    features = build_game_features(game_pk, load_statcast(history_path))
-    artifact = load_artifact(model_path)
-    features["home_run_probability"] = artifact.model.predict_proba(features[FEATURES])[:, 1]
+def _score(features: pd.DataFrame, model: object) -> pd.DataFrame:
+    features["home_run_probability"] = model.predict_proba(features[FEATURES])[:, 1]  # type: ignore[attr-defined]
     return features[[
         "game_pk", "game_date", "player_id", "player_name", "pitcher_name",
         "expected_batting_order", "home_run_probability",
-    ]].sort_values("home_run_probability", ascending=False)
+    ]]
 
+
+def predict_game(game_pk: int, history_path: Path, model_path: Path) -> pd.DataFrame:
+    features = build_game_features(game_pk, load_statcast(history_path))
+    artifact = load_artifact(model_path)
+    return _score(features, artifact.model).sort_values("home_run_probability", ascending=False)
+
+
+def predict_day(game_date: str, history_path: Path, model_path: Path) -> pd.DataFrame:
+    """Rank expected hitters across every ready MLB game on one date."""
+    games = fetch_scheduled_games(game_date)
+    if not games:
+        raise ValueError(f"No MLB games were found on {game_date}")
+    p = _prepare_pitches(load_statcast(history_path))
+    p = p[p["game_date"].lt(pd.Timestamp(game_date).normalize())]
+    artifact = load_artifact(model_path)
+    predictions: list[pd.DataFrame] = []
+    for game in games:
+        matchup = f"{game.away_team} at {game.home_team}"
+        try:
+            features = _features_for_hitters(fetch_expected_hitters(game.game_pk), p)
+        except (KeyError, ValueError, requests.RequestException) as error:
+            LOGGER.warning("Skipping %s (%s): %s", matchup, game.game_pk, error)
+            continue
+        scored = _score(features, artifact.model)
+        scored.insert(2, "matchup", matchup)
+        predictions.append(scored)
+    if not predictions:
+        raise ValueError(f"No games on {game_date} have complete lineups and starting pitchers yet")
+    return pd.concat(predictions, ignore_index=True).sort_values(
+        "home_run_probability", ascending=False
+    )
