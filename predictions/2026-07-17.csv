@@ -1,19 +1,199 @@
 game_pk,game_date,matchup,player_id,player_name,pitcher_name,expected_batting_order,home_run_probability
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,660271,Shohei Ohtani,Gerrit Cole,1,0.19343049106639612
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,808959,Munetaka Murakami,Spencer Miles,2,0.16835943626376354
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,700250,Ben Rice,Roki Sasaki,2,0.16652251844911692
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,663757,Trent Grisham,Roki Sasaki,1,0.15698074492482372
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,682829,Elly De La Cruz,Gabriel Hughes,1,0.1552189865419815
+824170,2026-07-17,Baltimore Orioles at Houston Astros,670541,Yordan Alvarez,Dean Kremer,2,0.15232503132347633
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,701398,Sal Stewart,Gabriel Hughes,2,0.147081654829652
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,696100,Hunter Goodman,Brady Singer,3,0.14673430681420477
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,666160,Mickey Moniak,Brady Singer,2,0.14226350772830257
+824901,2026-07-17,Texas Rangers at Atlanta Braves,686948,Drake Baldwin,Cal Quantrill,1,0.14193125739456897
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,592885,Christian Yelich,Sandy Alcantara,1,0.1397894097265609
+824170,2026-07-17,Baltimore Orioles at Houston Astros,683002,Gunnar Henderson,Peter Lambert,1,0.1390110309540385
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,694192,Jackson Chourio,Sandy Alcantara,2,0.1386214273910462
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,665489,Vladimir Guerrero Jr.,Anthony Kay,2,0.13670390060231485
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,663616,Trevor Larnach,Colin Rea,1,0.13520538938822269
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,691718,Pete Crow-Armstrong,Bailey Ober,1,0.13422605376468416
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,502671,Paul Goldschmidt,Roki Sasaki,3,0.13277177184855013
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,673548,Seiya Suzuki,Bailey Ober,2,0.13169426648735197
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,681624,Andy Pages,Gerrit Cole,2,0.1312864556095854
+824090,2026-07-17,San Diego Padres at Kansas City Royals,665487,Fernando Tatis Jr.,Seth Lugo,1,0.1297225207989964
+824170,2026-07-17,Baltimore Orioles at Houston Astros,665161,Jeremy Peña,Dean Kremer,1,0.12820411291598657
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,672960,Kazuma Okamoto,Anthony Kay,3,0.12699732339925734
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,691406,Junior Caminero,Jake Bennett,3,0.12605842857398483
-824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,650490,Yandy Díaz,Jake Bennett,1,0.12339413818722349
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,805811,Bryce Eldridge,Bryce Miller,2,0.12437431129462043
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,672640,Otto Lopez,Logan Henderson,2,0.12333748661423545
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,689414,Liam Hicks,Logan Henderson,1,0.12281367783197636
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,680777,Ryan Jeffers,Colin Rea,2,0.12249223399207694
+824901,2026-07-17,Texas Rangers at Atlanta Braves,679822,Justin Foscue,Chris Sale,1,0.12182770773864075
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,664983,Jake McCarthy,Brady Singer,1,0.12107986806261678
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,691406,Junior Caminero,Eduardo Rivera,3,0.12095763429589652
+824901,2026-07-17,Texas Rangers at Atlanta Braves,694671,Wyatt Langford,Chris Sale,2,0.12076484941848237
+824901,2026-07-17,Texas Rangers at Atlanta Braves,621566,Matt Olson,Cal Quantrill,3,0.1206648897505775
+824170,2026-07-17,Baltimore Orioles at Houston Astros,624413,Pete Alonso,Peter Lambert,4,0.12025848140183691
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,668227,Randy Arozarena,Landen Roupp,2,0.11966623942446654
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,518692,Freddie Freeman,Gerrit Cole,3,0.11952494256159552
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,686527,Dominic Canzone,Landen Roupp,3,0.11874918865022248
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,650490,Yandy Díaz,Eduardo Rivera,1,0.11838654718491896
+824170,2026-07-17,Baltimore Orioles at Houston Astros,668939,Adley Rutschman,Peter Lambert,2,0.11807923678560107
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,803011,Sam Antonacci,Spencer Miles,1,0.11629169531660774
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,669065,Kyle Stowers,Logan Henderson,4,0.11611845450721302
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,663728,Cal Raleigh,Landen Roupp,4,0.11537558846607211
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,605141,Mookie Betts,Gerrit Cole,4,0.11533165767772065
+824170,2026-07-17,Baltimore Orioles at Houston Astros,621493,Taylor Ward,Peter Lambert,3,0.11519958559932249
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,605137,Josh Bell,Colin Rea,3,0.11475028285634453
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,683737,Michael Busch,Bailey Ober,3,0.11469082584881928
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,695657,Colson Montgomery,Spencer Miles,4,0.11437459669434433
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,678011,Anthony Seigler,Mason Englert,1,0.11428070683712278
+824090,2026-07-17,San Diego Padres at Kansas City Royals,695600,Carter Jensen,Michael King,1,0.1138636109209426
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,661388,William Contreras,Sandy Alcantara,4,0.11309225966051643
+824901,2026-07-17,Texas Rangers at Atlanta Braves,645277,Ozzie Albies,Cal Quantrill,2,0.1120034450858492
+824090,2026-07-17,San Diego Padres at Kansas City Royals,677951,Bobby Witt Jr.,Michael King,2,0.11197847453310208
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,681715,Heriberto Hernández,Logan Henderson,5,0.11064794787307979
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,668709,JJ Bleday,Gabriel Hughes,3,0.11047692100519182
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,571970,Max Muncy,Gerrit Cole,5,0.11033832694042901
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,678011,Anthony Seigler,Griffin Jax,1,0.1102579359385388
+824170,2026-07-17,Baltimore Orioles at Houston Astros,572233,Christian Walker,Dean Kremer,4,0.11006687935808362
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,669477,Casey Schmitt,Bryce Miller,3,0.10927765420768493
+824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,683748,Victor Mesa Jr.,Jake Bennett,1,0.10903138494355527
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,646240,Rafael Devers,Bryce Miller,4,0.1087209288899176
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,678882,Ceddanne Rafaela,Mason Englert,2,0.10838160142823813
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,676391,Ernie Clement,Anthony Kay,1,0.10837688031016074
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,677800,Wilyer Abreu,Mason Englert,3,0.10799556462153169
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,641487,J.P. Crawford,Landen Roupp,1,0.10785883227858004
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,575929,Willson Contreras,Mason Englert,4,0.10727378308332566
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,691176,Jasson Domínguez,Roki Sasaki,5,0.10592245931539548
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,678246,Miguel Vargas,Spencer Miles,3,0.10531933409323127
+824170,2026-07-17,Baltimore Orioles at Houston Astros,670623,Isaac Paredes,Dean Kremer,3,0.10521807122283004
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,641355,Cody Bellinger,Roki Sasaki,4,0.10468438564313934
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,678882,Ceddanne Rafaela,Griffin Jax,2,0.10454197426125289
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,677800,Wilyer Abreu,Griffin Jax,3,0.10416801577042731
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,553993,Eugenio Suárez,Gabriel Hughes,5,0.10414970227111171
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,641343,Jake Bauers,Sandy Alcantara,5,0.1040641605654636
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,543807,George Springer,Anthony Kay,4,0.10245861890829652
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,665019,Kody Clemens,Colin Rea,4,0.10234364521232883
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,668715,Spencer Steer,Gabriel Hughes,4,0.10165737729524359
+824090,2026-07-17,San Diego Padres at Kansas City Royals,701538,Jackson Merrill,Seth Lugo,2,0.10151905694563576
+824901,2026-07-17,Texas Rangers at Atlanta Braves,671739,Michael Harris II,Cal Quantrill,4,0.10130488009792478
+824090,2026-07-17,San Diego Padres at Kansas City Royals,695506,Jac Caglianone,Michael King,3,0.10109673263195347
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,665862,Jazz Chisholm Jr.,Roki Sasaki,6,0.10019283294826263
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,608324,Alex Bregman,Bailey Ober,4,0.09937750860856595
+824901,2026-07-17,Texas Rangers at Atlanta Braves,669394,Jake Burger,Chris Sale,5,0.09848694288477276
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,668930,Brice Turang,Sandy Alcantara,3,0.09843195991560513
+824170,2026-07-17,Baltimore Orioles at Houston Astros,694212,Samuel Basallo,Peter Lambert,5,0.09777022274915959
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,650333,Luis Arraez,Bryce Miller,1,0.09753511333451804
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,681198,TJ Rumfield,Brady Singer,4,0.09667369567971715
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,668904,Royce Lewis,Colin Rea,5,0.09608397739415236
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,666018,Jonathan Aranda,Jake Bennett,2,0.09567787805509678
+824090,2026-07-17,San Diego Padres at Kansas City Royals,592518,Manny Machado,Seth Lugo,4,0.09482432812950688
+824901,2026-07-17,Texas Rangers at Atlanta Braves,673962,Josh Jung,Chris Sale,4,0.09375093415664904
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,669364,Xavier Edwards,Logan Henderson,3,0.09323407166621349
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,671218,Heliot Ramos,Bryce Miller,5,0.09307019708655856
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,664023,Ian Happ,Bailey Ober,5,0.092131884201769
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,606192,Teoscar Hernández,Gerrit Cole,7,0.0919826907905007
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,666018,Jonathan Aranda,Eduardo Rivera,2,0.09167743816247789
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,691720,Kyle Karros,Brady Singer,5,0.09150036709377773
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,663656,Kyle Tucker,Gerrit Cole,6,0.09097250193547976
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,665052,Griffin Conine,Logan Henderson,6,0.08959176947582487
+824901,2026-07-17,Texas Rangers at Atlanta Braves,607043,Brandon Nimmo,Chris Sale,3,0.08835269669219346
+824090,2026-07-17,San Diego Padres at Kansas City Royals,593428,Xander Bogaerts,Seth Lugo,3,0.08796172702531303
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,663886,Tyler Stephenson,Gabriel Hughes,6,0.08630589200733733
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,669003,Garrett Mitchell,Sandy Alcantara,6,0.08612069667024426
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,672386,Alejandro Kirk,Anthony Kay,5,0.085366882582524
+824170,2026-07-17,Baltimore Orioles at Houston Astros,514888,Jose Altuve,Dean Kremer,5,0.08522683933596789
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,668723,Ryan Vilade,Jake Bennett,4,0.08364523388539716
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,650489,Willi Castro,Brady Singer,6,0.08326559280466146
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,647304,Josh Naylor,Landen Roupp,5,0.08278775162793887
+824901,2026-07-17,Texas Rangers at Atlanta Braves,663586,Austin Riley,Cal Quantrill,7,0.08245808479642637
+824090,2026-07-17,San Diego Padres at Kansas City Royals,657041,Lane Thomas,Michael King,4,0.08158389396913293
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,663853,Romy Gonzalez,Griffin Jax,6,0.08105268190551747
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,807799,Masataka Yoshida,Mason Englert,5,0.08084275632376071
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,702332,Caleb Durbin,Griffin Jax,4,0.0804076540673946
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,668723,Ryan Vilade,Eduardo Rivera,4,0.08010333337739785
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,643217,Andrew Benintendi,Spencer Miles,5,0.0782545887747118
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,807799,Masataka Yoshida,Griffin Jax,5,0.07789351406685954
+824090,2026-07-17,San Diego Padres at Kansas City Royals,686469,Vinnie Pasquantino,Michael King,5,0.07752428819451172
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,687221,Dalton Rushing,Gerrit Cole,8,0.0773329306709151
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,686797,Brooks Lee,Colin Rea,6,0.07635241825393924
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,642715,Willy Adames,Bryce Miller,7,0.07560053976551971
+824170,2026-07-17,Baltimore Orioles at Houston Astros,664774,LaMonte Wade Jr.,Dean Kremer,6,0.07544362726441513
+824090,2026-07-17,San Diego Padres at Kansas City Royals,521692,Salvador Perez,Michael King,6,0.07506518182242432
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,691019,Kyle Teel,Spencer Miles,6,0.0746779110894349
+824170,2026-07-17,Baltimore Orioles at Houston Astros,681297,Colton Cowser,Peter Lambert,7,0.07454417147758095
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,670042,Luke Raley,Landen Roupp,7,0.07413130598493921
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,641857,Ryan McMahon,Roki Sasaki,8,0.0735481171777323
+824090,2026-07-17,San Diego Padres at Kansas City Royals,657757,Gavin Sheets,Seth Lugo,5,0.07234101491017046
+824901,2026-07-17,Texas Rangers at Atlanta Braves,643289,Mauricio Dubón,Cal Quantrill,5,0.07217517586378083
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,624424,Michael Conforto,Bailey Ober,7,0.07135815272175965
+824170,2026-07-17,Baltimore Orioles at Houston Astros,701358,Cam Smith,Dean Kremer,7,0.07134530350671865
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,687859,Troy Johnston,Brady Singer,7,0.07065559129007552
+824170,2026-07-17,Baltimore Orioles at Houston Astros,828599,Lucas Spence,Dean Kremer,8,0.0700541096782983
+824901,2026-07-17,Texas Rangers at Atlanta Braves,642086,Dominic Smith,Cal Quantrill,6,0.0697785765949429
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,691788,Joe Mack,Logan Henderson,8,0.06949334797025976
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,676609,José Caballero,Roki Sasaki,7,0.06887115773013677
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,662139,Daulton Varsho,Anthony Kay,6,0.06829865429140133
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,695731,Braden Montgomery,Spencer Miles,7,0.06806563455639572
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,702332,Caleb Durbin,Mason Englert,6,0.06792384674832977
+824901,2026-07-17,Texas Rangers at Atlanta Braves,677649,Ezequiel Duran,Chris Sale,6,0.06758348672464509
+824170,2026-07-17,Baltimore Orioles at Houston Astros,687637,Dylan Beavers,Peter Lambert,6,0.06756686437558918
+824170,2026-07-17,Baltimore Orioles at Houston Astros,691723,Coby Mayo,Peter Lambert,8,0.06753466769807666
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,702284,Cole Young,Landen Roupp,6,0.06751230305717978
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,805300,Jakob Marsee,Logan Henderson,7,0.06739107919430182
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,680776,Jarren Duran,Mason Englert,7,0.06682339359512696
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,669224,Austin Wells,Roki Sasaki,9,0.06681142234284712
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,676356,Jonny DeLuca,Jake Bennett,5,0.0662780199616003
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,678218,Brandon Valenzuela,Anthony Kay,7,0.06568984689815079
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,806198,Cooper Pratt,Sandy Alcantara,7,0.0655659925532864
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,663538,Nico Hoerner,Bailey Ober,6,0.06523463103346065
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,670770,TJ Friedl,Gabriel Hughes,7,0.06519645811527909
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,808982,Jung Hoo Lee,Bryce Miller,6,0.0647238728299205
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,680776,Jarren Duran,Griffin Jax,7,0.06434978884618356
+824090,2026-07-17,San Diego Padres at Kansas City Royals,664034,Ty France,Seth Lugo,6,0.06375177765789103
+823524,2026-07-17,Los Angeles Dodgers at New York Yankees,669242,Tommy Edman,Gerrit Cole,9,0.06330958926949536
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,678662,Ezequiel Tovar,Brady Singer,9,0.06269401109431998
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,608348,Carson Kelly,Bailey Ober,8,0.06201452019474996
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,671289,Tyler Freeman,Brady Singer,8,0.06200047765952095
+824901,2026-07-17,Texas Rangers at Atlanta Braves,676551,Brewer Hicklen,Cal Quantrill,9,0.06169882878153991
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,621020,Dansby Swanson,Bailey Ober,9,0.060766405307839506
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,702176,Alan Roden,Colin Rea,7,0.06055991894713554
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,656775,Cedric Mullins,Eduardo Rivera,5,0.060491662981301916
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,649966,Luis Urías,Anthony Kay,8,0.05849172980003989
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,663647,Ke'Bryan Hayes,Gabriel Hughes,9,0.05780208105428889
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,665966,Carlos Narváez,Griffin Jax,8,0.05755944070591117
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,676356,Jonny DeLuca,Eduardo Rivera,6,0.05712285635983366
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,657136,Connor Wong,Mason Englert,8,0.05679029005639742
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,807712,Luke Keaschall,Colin Rea,8,0.05647673869973371
+824901,2026-07-17,Texas Rangers at Atlanta Braves,553869,Elias Díaz,Chris Sale,8,0.05616240770924946
+824655,2026-07-17,Minnesota Twins at Chicago Cubs,656484,Tristan Gray,Colin Rea,9,0.05608478410031548
+824901,2026-07-17,Texas Rangers at Atlanta Braves,805347,Jim Jarvis,Cal Quantrill,8,0.05595664693308396
+824090,2026-07-17,San Diego Padres at Kansas City Royals,686681,Michael Massey,Michael King,7,0.055885242862129945
+824170,2026-07-17,Baltimore Orioles at Houston Astros,702616,Jackson Holliday,Peter Lambert,9,0.055228208615577104
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,687401,Joey Ortiz,Sandy Alcantara,9,0.055214376347846615
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,671976,Tristan Peters,Spencer Miles,8,0.05509965660961356
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,686217,Sal Frelick,Sandy Alcantara,8,0.05410206333973659
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,810938,Ben Williamson,Jake Bennett,7,0.05400591294930501
+824332,2026-07-17,Cincinnati Reds at Colorado Rockies,695490,Edwin Arroyo,Gabriel Hughes,8,0.05369006915799985
+823766,2026-07-17,Miami Marlins at Milwaukee Brewers,691594,Javier Sanoja,Logan Henderson,9,0.053235936951024986
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,687551,Drew Gilbert,Bryce Miller,8,0.05311750743140419
+824090,2026-07-17,San Diego Padres at Kansas City Royals,630105,Jake Cronenworth,Seth Lugo,7,0.05276401094116462
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,806068,Colt Emerson,Landen Roupp,9,0.051703545312820356
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,810938,Ben Williamson,Eduardo Rivera,7,0.05164833078282157
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,645302,Victor Robles,Landen Roupp,8,0.05076829710551634
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,691907,Tsung-Che Cheng,Mason Englert,9,0.05057547113034292
+824090,2026-07-17,San Diego Padres at Kansas City Royals,609280,Miguel Andujar,Seth Lugo,8,0.04972727281311621
+824170,2026-07-17,Baltimore Orioles at Houston Astros,543877,Christian Vázquez,Dean Kremer,9,0.0496173323903453
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,805367,Chase Meidroth,Spencer Miles,9,0.04912335780736467
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,691907,Tsung-Che Cheng,Griffin Jax,9,0.04867194650465733
+824090,2026-07-17,San Diego Padres at Kansas City Royals,669134,Luis Campusano,Seth Lugo,9,0.04865601264062765
+824090,2026-07-17,San Diego Padres at Kansas City Royals,679845,Nick Loftin,Michael King,8,0.04851563527038131
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,663743,Nick Fortes,Jake Bennett,9,0.046589317225504245
+824901,2026-07-17,Texas Rangers at Atlanta Braves,695508,Cam Cauley,Chris Sale,7,0.046048116165019186
+824090,2026-07-17,San Diego Padres at Kansas City Royals,686555,Isaac Collins,Michael King,9,0.04539101423782234
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,670764,Taylor Walls,Jake Bennett,8,0.045179527067449696
+822789,2026-07-17,Chicago White Sox at Toronto Blue Jays,664702,Myles Straw,Anthony Kay,9,0.04349876577426783
+823115,2026-07-17,San Francisco Giants at Seattle Mariners,701852,Drew Cavanaugh,Bryce Miller,9,0.043104377380020556
 824766,2026-07-17,Tampa Bay Rays at Boston Red Sox,802415,Chandler Simpson,Jake Bennett,6,0.042441090308216044
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,676439,Hunter Feduccia,Eduardo Rivera,8,0.03978368199120467
+824737,2026-07-17,Tampa Bay Rays at Boston Red Sox,670764,Taylor Walls,Eduardo Rivera,9,0.038817595867731765
+824901,2026-07-17,Texas Rangers at Atlanta Braves,670032,Nicky Lopez,Chris Sale,9,0.03342300567160289
